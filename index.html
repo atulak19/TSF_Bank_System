@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSF Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        header {
+            /* background-color: rgb(0, 0, 0);
+            height: 20px; */
+        }
+
+        body {
+            background: url(bg.jpg);
+            background-size: 100%;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            font-size: 10px;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            font-family: 'Ubuntu', sans-serif;
+            left: 5px;
+            top: 12px;
+        }
+
+        .left img {
+            width: 50px;
+            margin-left: 17px;
+            filter: invert(100);
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 20px;
+            padding-left: 20px;
+            color: white;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            /* display: block; */
+
+            width: 33%;
+            margin: 12px auto;
+            /* color: seashell#; */
+
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            right: 5px;
+            top: 12px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 22px;
+            font-weight: bold;
+            display: inline-block;
+
+            /* display : inline-block; */
+        }
+
+        .navbar li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 1px 23px;
+            /* border-radius: 20px;
+               border-color: rgb(212, 0, 0); */
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: none;
+            color: rgb(233, 255, 38);
+            /* border-radius:20px ;
+           border-color: white; */
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            margin: 2px 9px;
+            padding: 5px 14px;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            /* background-color: gray; */
+            color: rgb(0, 24, 238);
+            background-color: rgb(22, 22, 22);
+        }
+
+        section {
+            display: grid;
+            color: white;
+            border: 2px solid black;
+            width: 33%;
+            margin-top: 200px;
+            font-size: 20px;
+            /* background-color: white; */
+            /* opacity: 20%; */
+
+            /* color: white; */
+        }
+
+        .container {
+            display: flex;
+            margin-top: 250px;
+            justify-content: center;
+            padding: 20px;
+
+        }
+
+        .TSF {
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+            /* size: 20px; */
+            border-radius: 20px;
+            border-width: 3px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+        }
+
+        .TSF a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .TSF a:hover {
+            /* background-color: black; */
+            color: rgb(45, 57, 221);
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            color: white;
+            margin-top: 200px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        footer div a {
+            color: rgb(222, 241, 48);
+            text-decoration: none;
+        }
+
+        footer div a:hover {
+            color: rgb(179, 201, 53);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- left box for logo and name -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>TSF Bank</div>
+        </div>
+
+        <!-- mid box for navigation menu -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://www.thesparksfoundationsingapore.org/" target="blank">About us</a></li>
+                <li><a href="https://drive.google.com/file/d/1jeOTxTs1ctfIEII6a9sFeqx5I-o4wovv/view?usp=sharing"
+                        target="blank">My Resume</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Ragister</button>
+            <button class="btn">Sign in</button>
+        </div>
+
+    </header>
+
+
+    <div class="container">
+        <button class="TSF"> <a href="#"> View all Customers </a> </button>
+        <button class="TSF"> <a href="#"> Transfer Money </a> </button>
+        <button class="TSF"> <a href="#"> Transaction Histroy </a> </button>
+    </div>
+
+    <footer>
+        <div class="name">Atul Jeevraj Kande , Web Developement intern at <a
+                href="https://www.thesparksfoundationsingapore.org/" target="blank"> The Sparks Foundation</a> &nbsp,  December 2021</div>
+        <div class="intern"> </div>
+    </footer>
+</body>
+
+</html>
